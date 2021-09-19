@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Avishek-kr/gaming-zone/issues"
   },
-  "homepage": "https://github.com/Avishek-kr/gaming-zone#readme"
+  "homepage": "https://github.com/Avishek-kr/gaming-zone#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
