@@ -5,6 +5,10 @@ const roomSchema= mongoose.Schema({
         type: String,
         required: true
     },
+    address:{
+        type: String,
+        required: true
+    },
     maxcount : {
         type: Number, 
         required: true
