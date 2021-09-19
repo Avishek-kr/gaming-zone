@@ -1,5 +1,7 @@
 import axios from 'axios'
 import React , {useEffect ,useState} from 'react'
+import Room from '../components/Room'
+
 
 
 function Homescreen() {
@@ -23,9 +25,14 @@ function Homescreen() {
             }, [])
     return (
         <div>
+        <div className="row">
+
             {loading ? (<h1>loading...</h1>) : error ? (<h1>error</h1>): (rooms.map(room=>{
-                return <h1>{room.name}</h1>
+                return <div className="col-md-9">
+                    <Room room={room} />
+                </div>
             }))}
+        </div>
         </div> 
     )
 }
