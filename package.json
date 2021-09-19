@@ -1,0 +1,19 @@
+{
+  "name": "gaming-zone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avishek-kr/gaming-zone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avishek-kr/gaming-zone/issues"
+  },
+  "homepage": "https://github.com/Avishek-kr/gaming-zone#readme"
+}
